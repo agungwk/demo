@@ -5,6 +5,8 @@ on:
       - master
       - main
   pull_request:
+    paths:
+      - '**.go'
 
 permissions:
   contents: read
